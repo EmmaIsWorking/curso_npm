@@ -1,22 +1,29 @@
 {
-  "name": "jsnpm",
+  "name": "random_messages",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Random messages",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EmmaIsWorking/curso_npm.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
   "author": "Emmanuel García <dimple.pleod@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.24.0"
+  "bin": {
+    "randomMsg": "./bin/global.js"
   },
-  "devDependencies": {
-    "date-fns": "^2.12.0",
-    "wepack": "0.0.1"
+  "preferGlobal": true,
+
+  "bugs": {
+    "url": "https://github.com/EmmaIsWorking/curso_npm/issues"
   },
-  "optionalDependencies": {
-    "eslint": "^6.8.0"
-  }
+  "homepage": "https://github.com/EmmaIsWorking/curso_npm#readme"
 }
