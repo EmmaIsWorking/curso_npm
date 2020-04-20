@@ -1,0 +1,16 @@
+ {
+  "name": "jsnpm",
+  "version": "1.0.0",
+  "description": "Curso de npm para construir un paquete con node con Oscar Barajas",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Emmanuel Garcia",
+  "license": "MIT"
+}
