@@ -1,5 +1,5 @@
 {
-  "name": "random_messages",
+  "name": "mensajes_random",
   "version": "1.0.0",
   "description": "Random messages",
   "main": "src/index.js",
@@ -21,7 +21,6 @@
     "randomMsg": "./bin/global.js"
   },
   "preferGlobal": true,
-
   "bugs": {
     "url": "https://github.com/EmmaIsWorking/curso_npm/issues"
   },

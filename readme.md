@@ -39,6 +39,14 @@
 `npm audit`
 `npm audit --json`
 `npm audit fix`
+`npm link`
+`npm adduser`
+
+`npm version patch`
+`npm version minor`
+`npm version major`
+
+
 
 
 ### Dependencias
